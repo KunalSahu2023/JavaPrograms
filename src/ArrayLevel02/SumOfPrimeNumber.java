@@ -4,16 +4,16 @@ public class SumOfPrimeNumber {
 	
 	public static void main(String[] args) {
 		int [] arr= {12,15,17,19,21,59};
-		int count=0;
+		int sum=0;
 		
 		System.out.println("Prime Number in the Array: ");
 		for(int p:arr) {
 			if(isPrime(p)){
 				System.out.println(p+" ");
-			count++;
+				sum=sum+p;
 		}
 	}
-		System.out.println("Total Prime Number is: "+count);
+		System.out.println("Total Prime Number is: "+sum);
 	}
 	
 	public static boolean isPrime(int n) {
