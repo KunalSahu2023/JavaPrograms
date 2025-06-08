@@ -17,10 +17,12 @@ public class PrintAndCountPrimeNumber {
 	}
 	
 	public static boolean isPrime(int n) {
-		if(n<=1)
+		if(n<2)
 			return false;
+		if(n==2||n==3)
+			return true;
 		
-		for(int i=2;i<Math.sqrt(n);i++) {
+		for(int i=2;i*i<=n;i=+2) {
 			if(n%i==0)
 				return false;
 		}
