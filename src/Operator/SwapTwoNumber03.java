@@ -1,0 +1,14 @@
+package Operator;
+
+public class SwapTwoNumber03 {
+	public static void main(String[] args) {
+		int a=20,b=30,c=40;
+		System.out.println("Before Swapping a: "+a +" b: "+b+" c: "+c);
+		int d=a;
+		a=c;
+		c=b;
+		b=d;
+		System.out.println("Swapping Using Fourth Variable");
+		System.out.println("a: "+a +" b: "+b+" c: "+c);
+	}
+}
