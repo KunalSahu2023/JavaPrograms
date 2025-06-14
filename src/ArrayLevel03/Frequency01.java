@@ -9,7 +9,7 @@ public class Frequency01 {
 		Scanner sc=new Scanner(System.in);
 		int k=sc.nextInt();
 		int getFrequency=getFrequency(a,k);
-		System.out.println(getFrequency);;
+		System.out.println(getFrequency);
 
 
 
@@ -31,7 +31,7 @@ public class Frequency01 {
 				System.out.println((i+min)+" is "+freq[i]+ " times");;
 		}
 		
-		return 0; 
+		return 1;
 	}
 
 }
