@@ -1,4 +1,4 @@
-package ArrayLevel03;
+package ArrayLevel02;
 
 public class ArrayIsStrictlyIncreasing {
 

@@ -8,9 +8,7 @@ public class ConacatenateTwoArray {
 		int [] concate = concate(arr1);
 		for(int c: concate)
 			System.out.print(c+" ");
-		
 	}
-		
 		
 	public static int[] concate(int[] a) {
 	int [] concate = new int[2*a.length];
